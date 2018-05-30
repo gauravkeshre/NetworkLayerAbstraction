@@ -1,0 +1,20 @@
+PODS:
+  - ReachabilitySwift (4.1.0)
+  - Swifty (1.1.0)
+
+DEPENDENCIES:
+  - ReachabilitySwift
+  - Swifty
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReachabilitySwift
+    - Swifty
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  Swifty: 7b6ac2715b7e366d43b1f01da3fe54ab026bb3a8
+
+PODFILE CHECKSUM: 0b9da420ba4ac473795f3e5cdde2e1c33eee78de
+
+COCOAPODS: 1.5.2
