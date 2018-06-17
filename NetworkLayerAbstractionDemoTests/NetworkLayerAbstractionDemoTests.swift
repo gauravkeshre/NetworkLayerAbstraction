@@ -3,7 +3,7 @@
 //  NetworkLayerAbstractionDemoTests
 //
 //  Created by Gaurav Keshre on 30/05/18.
-//  Copyright © 2018 Zoomcar. All rights reserved.
+//  Copyright © 2018 Gaurav Keshre. All rights reserved.
 //
 
 import XCTest
