@@ -40,8 +40,8 @@ struct SignupResponse: HTTPResponse {
     static func parse(dictionary: JSONDictionary) -> SignupResponse {
         let body: Body?
 
-        if let _body = dictionary["<# name #>"] as? [JSONDictionary] {
-					body = _body.flatMap{SignupResponse($0)}
+        if let _body = dictionary["body"] as? [JSONDictionary] {
+            body = _body.compactMap{Signup($0)}.first
         }else {
           body = nil
         }
@@ -61,11 +61,11 @@ struct SignupRequest: HTTPRequest {
     private var params: [String: Any] = [:]
 
     init() {
-        self.params [ API.K.deviceId] = SessionManager.instance.deviceId
+//        self.params [ API.K.deviceId] = SessionManager.instance.deviceId
     }
 
     var resource: HTTPResource {
-        let authResource = HTTPResource(path: APIEndpoints.<#API ENDPOINT#>, method: .<#get#>, headers: [:], body: params)
+        let authResource = HTTPResource(path: APIEndpoints.register, method: .get, headers: [:], body: params)
         return authResource
     }
 }
