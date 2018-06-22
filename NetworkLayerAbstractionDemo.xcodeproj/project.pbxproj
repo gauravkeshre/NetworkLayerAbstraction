@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		363F4F4700487D6A8EA5E407 /* Pods_NetworkLayerAbstractionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66F775639AA1B6FA0141A5 /* Pods_NetworkLayerAbstractionDemo.framework */; };
+		E239817C20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239817B20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift */; };
+		E239818420DCFE940051B3D1 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239818320DCFE940051B3D1 /* SnapshotHelper.swift */; };
 		E24846DB20BEA08800C9BD90 /* NetworkAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DA20BEA08800C9BD90 /* NetworkAbstraction.swift */; };
 		E24846DD20BEA09900C9BD90 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DC20BEA09900C9BD90 /* APIEnvironment.swift */; };
 		E24846DF20BEA15E00C9BD90 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DE20BEA15E00C9BD90 /* APIManager.swift */; };
 		E24846E620BEA48700C9BD90 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846E520BEA48700C9BD90 /* LoginRequest.swift */; };
+		E24BDEB020D8DA65005F40BB /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BDEAF20D8DA65005F40BB /* Signup.swift */; };
 		E2C2E06920BE72EB006005A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2E06820BE72EB006005A0 /* AppDelegate.swift */; };
 		E2C2E06B20BE72EB006005A0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2E06A20BE72EB006005A0 /* MasterViewController.swift */; };
 		E2C2E06D20BE72EB006005A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2E06C20BE72EB006005A0 /* DetailViewController.swift */; };
@@ -23,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E239817E20DCFE600051B3D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C2E05D20BE72EB006005A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C2E06420BE72EB006005A0;
+			remoteInfo = NetworkLayerAbstractionDemo;
+		};
 		E2C2E07C20BE72EC006005A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E2C2E05D20BE72EB006005A0 /* Project object */;
@@ -36,10 +46,15 @@
 		85124652753F891F11D1C7F4 /* Pods-NetworkLayerAbstractionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerAbstractionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayerAbstractionDemo/Pods-NetworkLayerAbstractionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B9B9DB78FB7A2E474FF4C84D /* Pods-NetworkLayerAbstractionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerAbstractionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayerAbstractionDemo/Pods-NetworkLayerAbstractionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DA66F775639AA1B6FA0141A5 /* Pods_NetworkLayerAbstractionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkLayerAbstractionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E239817920DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerAbstractionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E239817B20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerAbstractionDemoUITests.swift; sourceTree = "<group>"; };
+		E239817D20DCFE600051B3D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E239818320DCFE940051B3D1 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		E24846DA20BEA08800C9BD90 /* NetworkAbstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAbstraction.swift; sourceTree = "<group>"; };
 		E24846DC20BEA09900C9BD90 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		E24846DE20BEA15E00C9BD90 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		E24846E520BEA48700C9BD90 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		E24BDEAF20D8DA65005F40BB /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		E2C2E06520BE72EB006005A0 /* NetworkLayerAbstractionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLayerAbstractionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C2E06820BE72EB006005A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C2E06A20BE72EB006005A0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +70,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E239817620DCFE600051B3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2C2E06220BE72EB006005A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,6 +110,16 @@
 				DA66F775639AA1B6FA0141A5 /* Pods_NetworkLayerAbstractionDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E239817A20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E239818320DCFE940051B3D1 /* SnapshotHelper.swift */,
+				E239817B20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift */,
+				E239817D20DCFE600051B3D1 /* Info.plist */,
+			);
+			path = NetworkLayerAbstractionDemoUITests;
 			sourceTree = "<group>";
 		};
 		E24846D620BEA03E00C9BD90 /* App */ = {
@@ -144,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				E24846E520BEA48700C9BD90 /* LoginRequest.swift */,
+				E24BDEAF20D8DA65005F40BB /* Signup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +186,7 @@
 			children = (
 				E2C2E06720BE72EB006005A0 /* NetworkLayerAbstractionDemo */,
 				E2C2E07E20BE72EC006005A0 /* NetworkLayerAbstractionDemoTests */,
+				E239817A20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests */,
 				E2C2E06620BE72EB006005A0 /* Products */,
 				72ECD83C86ADD9D8B94FD798 /* Pods */,
 				81FE5B557F5431A78483AB3B /* Frameworks */,
@@ -164,6 +198,7 @@
 			children = (
 				E2C2E06520BE72EB006005A0 /* NetworkLayerAbstractionDemo.app */,
 				E2C2E07B20BE72EC006005A0 /* NetworkLayerAbstractionDemoTests.xctest */,
+				E239817920DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +240,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E239817820DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E239818220DCFE600051B3D1 /* Build configuration list for PBXNativeTarget "NetworkLayerAbstractionDemoUITests" */;
+			buildPhases = (
+				E239817520DCFE600051B3D1 /* Sources */,
+				E239817620DCFE600051B3D1 /* Frameworks */,
+				E239817720DCFE600051B3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E239817F20DCFE600051B3D1 /* PBXTargetDependency */,
+			);
+			name = NetworkLayerAbstractionDemoUITests;
+			productName = NetworkLayerAbstractionDemoUITests;
+			productReference = E239817920DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E2C2E06420BE72EB006005A0 /* NetworkLayerAbstractionDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2C2E08420BE72EC006005A0 /* Build configuration list for PBXNativeTarget "NetworkLayerAbstractionDemo" */;
@@ -252,6 +305,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Zoomcar;
 				TargetAttributes = {
+					E239817820DCFE600051B3D1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E2C2E06420BE72EB006005A0;
+					};
 					E2C2E06420BE72EB006005A0 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -276,11 +333,19 @@
 			targets = (
 				E2C2E06420BE72EB006005A0 /* NetworkLayerAbstractionDemo */,
 				E2C2E07A20BE72EC006005A0 /* NetworkLayerAbstractionDemoTests */,
+				E239817820DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E239817720DCFE600051B3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2C2E06320BE72EB006005A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +407,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E239817520DCFE600051B3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E239817C20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift in Sources */,
+				E239818420DCFE940051B3D1 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2C2E06120BE72EB006005A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,6 +425,7 @@
 				E2C2E06D20BE72EB006005A0 /* DetailViewController.swift in Sources */,
 				E2C2E06B20BE72EB006005A0 /* MasterViewController.swift in Sources */,
 				E2C2E06920BE72EB006005A0 /* AppDelegate.swift in Sources */,
+				E24BDEB020D8DA65005F40BB /* Signup.swift in Sources */,
 				E24846E620BEA48700C9BD90 /* LoginRequest.swift in Sources */,
 				E24846DB20BEA08800C9BD90 /* NetworkAbstraction.swift in Sources */,
 				E24846DD20BEA09900C9BD90 /* APIEnvironment.swift in Sources */,
@@ -368,6 +443,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E239817F20DCFE600051B3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C2E06420BE72EB006005A0 /* NetworkLayerAbstractionDemo */;
+			targetProxy = E239817E20DCFE600051B3D1 /* PBXContainerItemProxy */;
+		};
 		E2C2E07D20BE72EC006005A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E2C2E06420BE72EB006005A0 /* NetworkLayerAbstractionDemo */;
@@ -395,6 +475,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E239818020DCFE600051B3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DB4CDA67P;
+				INFOPLIST_FILE = NetworkLayerAbstractionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcar.research.NetworkLayerAbstractionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkLayerAbstractionDemo;
+			};
+			name = Debug;
+		};
+		E239818120DCFE600051B3D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DB4CDA67P;
+				INFOPLIST_FILE = NetworkLayerAbstractionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcar.research.NetworkLayerAbstractionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkLayerAbstractionDemo;
+			};
+			name = Release;
+		};
 		E2C2E08220BE72EC006005A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,6 +716,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E239818220DCFE600051B3D1 /* Build configuration list for PBXNativeTarget "NetworkLayerAbstractionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E239818020DCFE600051B3D1 /* Debug */,
+				E239818120DCFE600051B3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E2C2E06020BE72EB006005A0 /* Build configuration list for PBXProject "NetworkLayerAbstractionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

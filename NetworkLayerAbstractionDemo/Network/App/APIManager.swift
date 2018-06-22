@@ -18,7 +18,6 @@ class SwiftyAPIManager: WebService {
 
 /** RequestInterceptor */
 class SwiftyRequestInterceptor: RequestInterceptor {
-    
     func intercept(resource: NetworkResource) -> NetworkResource {
         resource.header(key: "device_id", value: "asdasdasdasdasda")
         resource.header(key: "auth_token", value: "1231321123123")
