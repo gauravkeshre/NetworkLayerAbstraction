@@ -37,3 +37,9 @@ jobs:
       - store_artifacts:
           path: ~/Library/Logs/scan
           destination: scan-logs
+
+
+general:
+  branches:
+    only:
+      - fastlane # list of branches to build
