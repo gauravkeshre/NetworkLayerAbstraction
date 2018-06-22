@@ -12,6 +12,7 @@
 		E24846DD20BEA09900C9BD90 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DC20BEA09900C9BD90 /* APIEnvironment.swift */; };
 		E24846DF20BEA15E00C9BD90 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DE20BEA15E00C9BD90 /* APIManager.swift */; };
 		E24846E620BEA48700C9BD90 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846E520BEA48700C9BD90 /* LoginRequest.swift */; };
+		E24BDEB020D8DA65005F40BB /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BDEAF20D8DA65005F40BB /* Signup.swift */; };
 		E2C2E06920BE72EB006005A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2E06820BE72EB006005A0 /* AppDelegate.swift */; };
 		E2C2E06B20BE72EB006005A0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2E06A20BE72EB006005A0 /* MasterViewController.swift */; };
 		E2C2E06D20BE72EB006005A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2E06C20BE72EB006005A0 /* DetailViewController.swift */; };
@@ -40,6 +41,7 @@
 		E24846DC20BEA09900C9BD90 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		E24846DE20BEA15E00C9BD90 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		E24846E520BEA48700C9BD90 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		E24BDEAF20D8DA65005F40BB /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		E2C2E06520BE72EB006005A0 /* NetworkLayerAbstractionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLayerAbstractionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C2E06820BE72EB006005A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2C2E06A20BE72EB006005A0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				E24846E520BEA48700C9BD90 /* LoginRequest.swift */,
+				E24BDEAF20D8DA65005F40BB /* Signup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				E2C2E06D20BE72EB006005A0 /* DetailViewController.swift in Sources */,
 				E2C2E06B20BE72EB006005A0 /* MasterViewController.swift in Sources */,
 				E2C2E06920BE72EB006005A0 /* AppDelegate.swift in Sources */,
+				E24BDEB020D8DA65005F40BB /* Signup.swift in Sources */,
 				E24846E620BEA48700C9BD90 /* LoginRequest.swift in Sources */,
 				E24846DB20BEA08800C9BD90 /* NetworkAbstraction.swift in Sources */,
 				E24846DD20BEA09900C9BD90 /* APIEnvironment.swift in Sources */,
