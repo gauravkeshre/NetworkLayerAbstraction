@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		363F4F4700487D6A8EA5E407 /* Pods_NetworkLayerAbstractionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA66F775639AA1B6FA0141A5 /* Pods_NetworkLayerAbstractionDemo.framework */; };
 		E239817C20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239817B20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift */; };
-		E239818420DCFE940051B3D1 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239818320DCFE940051B3D1 /* SnapshotHelper.swift */; };
 		E24846DB20BEA08800C9BD90 /* NetworkAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DA20BEA08800C9BD90 /* NetworkAbstraction.swift */; };
 		E24846DD20BEA09900C9BD90 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DC20BEA09900C9BD90 /* APIEnvironment.swift */; };
 		E24846DF20BEA15E00C9BD90 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24846DE20BEA15E00C9BD90 /* APIManager.swift */; };
@@ -49,7 +48,6 @@
 		E239817920DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerAbstractionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E239817B20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerAbstractionDemoUITests.swift; sourceTree = "<group>"; };
 		E239817D20DCFE600051B3D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E239818320DCFE940051B3D1 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		E24846DA20BEA08800C9BD90 /* NetworkAbstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAbstraction.swift; sourceTree = "<group>"; };
 		E24846DC20BEA09900C9BD90 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		E24846DE20BEA15E00C9BD90 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 		E239817A20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E239818320DCFE940051B3D1 /* SnapshotHelper.swift */,
 				E239817B20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift */,
 				E239817D20DCFE600051B3D1 /* Info.plist */,
 			);
@@ -412,7 +409,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E239817C20DCFE600051B3D1 /* NetworkLayerAbstractionDemoUITests.swift in Sources */,
-				E239818420DCFE940051B3D1 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
